@@ -8,7 +8,8 @@
     "preview": "vite preview",
     "lint": "eslint src --max-warnings=0",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "dependencies": {
     "@radix-ui/react-checkbox": "^1.0.0",
@@ -27,6 +28,7 @@
     "@storybook/addon-links": "^6.5.12",
     "@storybook/builder-vite": "lasted",
     "@storybook/react": "^6.5.12",
+    "@storybook/storybook-deployer": "^2.8.12",
     "@storybook/testing-library": "^0.0.13",
     "@testing-library/react": "^12.0.0",
     "@types/react": "^18.0.0",
